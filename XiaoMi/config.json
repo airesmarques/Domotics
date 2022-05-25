@@ -1,0 +1,36 @@
+"accessories": [
+ {
+  "accessory": "XiaomiRoborockVacuum",
+  "name": "RoborockS6",
+  "ip": "192.168.1.xxx",
+  "token": "--token-- here",
+  "pause": false,
+  "dock": true,
+  "waterBox": false,
+  "cleanword": "cleaning",
+  "rooms": [
+    {
+      "id": 16,
+      "name": "Livingroom"
+    },
+    {
+      "id": 17,
+      "name": "Kitchen"
+    }
+  ],
+  "zones": [
+    {
+      "name":"Family Room (x2)",
+      "zone":[[25000,25000,32000,32000,2]]
+    },
+    {
+      "name":"Bedroom",
+      "zone":[[21000,32000,24000,37000,1]]
+    },
+    {
+      "name":"Bedroom & Family Room",
+      "zone":[ [21000,32000,24000,37000,1],  [25000,25000,32000,32000,1]]
+    }
+  ]
+ }
+],
